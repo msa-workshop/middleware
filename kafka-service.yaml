@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  name: kafka 
+  namespace: sns
+spec:
+  type: ExternalName 
+  externalName: 3.36.28.106 

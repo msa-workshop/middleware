@@ -12,7 +12,7 @@ create table post
     uploader_id     int                                not null,
     upload_datetime datetime default CURRENT_TIMESTAMP null,
     contents        text                               null,
-    status          varchar(15)                        null
+    status          varchar(15)                        default 'active' 
 );
 
 create database userdb;
